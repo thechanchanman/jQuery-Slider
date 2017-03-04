@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>jQuery Slider</title>
+	<link rel="stylesheet" href="css/jq-slider.css">
+</head>
+	<body>
+		<div class="slider-container" id="slider-photos">
+		<div class="slider-photos handle"></div>
+		<div class="slider-caption">
+			<div class="slider-caption-content"></div>
+		</div>
+		<div class="slider-nav">
+			<!--
+			<button class="slider-nav-item"></button>
+			<button class="slider-nav-item selected"></button>
+			<button class="slider-nav-item"></button> 
+			-->
+		</div>
+		<div class="progress"></div>
+	</div>
+
+	<!-- debugging -->
+	<div class="autoPlay"></div>
+	<div class="currentPanel"></div>
+	<div class="totalPanels"></div>
+	<div class="timePassed"></div>
+	<div class="timeToChange"></div>
+
+	<div class="slider-panels">
+		<div class="slider-panel">
+			<img src="https://images.unsplash.com/photo-1472752112832-519166b23dfa?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=" alt="" class="slider-panel-photo" width="100"/>
+			<div class="slider-panel-caption">
+				<a href="#">
+					<h2>Someone to light my path</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur fugit sapiente facere deserunt numquam, perferendis explicabo molestias doloribus ullam, odit, laboriosam id eos, nostrum.</p>
+				</a>
+			</div>
+		</div> <!-- end of .slider-panel -->
+		<div class="slider-panel">
+			<img src="https://images.unsplash.com/reserve/unsplash_528b27288f41f_1.JPG?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=" alt="" class="slider-panel-photo" width="100" />
+			<div class="slider-panel-caption">
+				<a href="#">
+					<h2>The girl and the sea</h2>
+					<p>Obcaecati repellendus facilis fugiat autem eius quibusdam cum culpa quia nulla tenetur. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				</a>
+			</div>
+		</div> <!-- end of .slider-panel -->
+		<div class="slider-panel">
+			<img src="https://images.unsplash.com/photo-1415065063214-b36374daf153?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=" alt="" class="slider-panel-photo" width="100" />
+			<div class="slider-panel-caption">
+				<a href="#">
+					<h2>Coffee anyone?</h2>
+					<p>Voluptas enim consectetur nihil voluptates aperiam fugit id modi, sequi perferendis dicta perspiciatis sit alias dignissimos, veniam repellat sed corporis cum.</p>
+				</a>
+			</div>
+		</div> <!-- end of .slider-panel -->
+		<div class="slider-panel">
+			<img src="https://images.unsplash.com/photo-1455145914126-c357157e2db0?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=" alt="" class="slider-panel-photo" width="100" />
+			<div class="slider-panel-caption">
+				<a href="#">
+					<h2>Adorable</h2>
+					<p>Recusandae magnam optio, laborum natus labore vitae excepturi animi amet neque esse consequuntur a, at, quae.</p>
+				</a>
+			</div>
+		</div> <!-- end of .slider-panel -->
+	</div>
+		<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+		<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+		<script src="js/vendor/jquery.imgpreload.min.js"></script>
+		<script src="js/jq-slider.js"></script>
+	</body>
+</html>
